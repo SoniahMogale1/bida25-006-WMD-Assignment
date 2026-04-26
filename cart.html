@@ -1,0 +1,44 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Your Cart</title>
+        <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS-->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    </head>
+    <body>
+        <!--Cart Items-->
+        <div class="cart-container">
+            <div class="cart-item">
+                <div>
+                    <h3>Shoe</h3>
+                    <p>Price:</p>
+                </div>
+            </div>
+        </div>
+        <h2>Total:</h2>
+
+        <!--Checkout Form-->
+        <section> 
+            <main class="container my-5">
+        <div class="form-container">
+            <h3>Checkout Details</h3>
+
+            <form action="acknowledgment.html" method="get">
+                <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="card number">Card Number:</label>
+            <textarea id="card number" name="card number" required></textarea>
+
+            <button type="purchase">Purchase</button>
+            </form>
+        </div>
+        </main>
+        </section>
+        </body>
+</html>
